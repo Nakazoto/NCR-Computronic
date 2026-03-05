@@ -7,6 +7,7 @@
 	(title_block
 		(title "Compu-Tronic Accumulator Unit Schematic")
 		(date "10-23-1958")
+		(comment 2 "For wiring diagram see 441E1302")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x12_Top_Bottom"
@@ -2595,9 +2596,9 @@
 		)
 		(uuid "ff696bd0-73d1-4bab-a0fb-475888c6d87f")
 	)
-	(text "1. All resistors 1/2 watt +/- 5% unless otherwise stated.\n2. All capacitors rated for 500V."
+	(text "1. All resistors 1/2 watt +/- 5% unless otherwise stated.\n2. All capacitors in MMFD (pF), 500 V.D.C.\n3. Tube unit location: G2,H2,J2,L2,M2,N2,R2,S2,T2,U2,X2,Y2,Z2.\n4. Bank 0 swaps DELAYED_BIAS and -105V in flip-flops 1 and 3."
 		(exclude_from_sim no)
-		(at 32.004 178.816 0)
+		(at 30.988 170.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2605,26 +2606,6 @@
 			(justify left)
 		)
 		(uuid "09275352-32c3-48bb-a21d-a5e7c1f3ae30")
-	)
-	(text "???"
-		(exclude_from_sim no)
-		(at 196.85 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7799a812-f302-49e5-b8d5-131ad6beee78")
-	)
-	(text "???"
-		(exclude_from_sim no)
-		(at 196.85 62.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c820be41-0740-4a85-8ecf-59fd709287b8")
 	)
 	(text "Set/Reset signals on the flip-flops for the\nincoming digit to add to the accumulator"
 		(exclude_from_sim no)
@@ -3921,7 +3902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14d57509-3ecc-4a64-8f22-0de00d6efc42")
-		(property "Reference" "R31"
+		(property "Reference" "AB31"
 			(at 153.162 85.344 90)
 			(effects
 				(font
@@ -3973,7 +3954,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R31")
+					(reference "AB31")
 					(unit 1)
 				)
 			)
@@ -3988,7 +3969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "268f98cf-29d0-424d-973d-7b5f4300b8cb")
-		(property "Reference" "R40"
+		(property "Reference" "AB40"
 			(at 212.852 65.024 90)
 			(effects
 				(font
@@ -4040,7 +4021,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R40")
+					(reference "AB40")
 					(unit 1)
 				)
 			)
@@ -4055,7 +4036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "315d62fb-ad36-4376-a006-8df6ec44884f")
-		(property "Reference" "R41"
+		(property "Reference" "AB41"
 			(at 212.852 70.104 90)
 			(effects
 				(font
@@ -4107,7 +4088,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R41")
+					(reference "AB41")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a9837d6-beee-4ac3-ac10-bfb882e830b3")
-		(property "Reference" "R20"
+		(property "Reference" "AB20"
 			(at 212.852 90.424 90)
 			(effects
 				(font
@@ -4174,7 +4155,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R20")
+					(reference "AB20")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c51e70b-8daf-4d57-94cb-b57c2344e810")
-		(property "Reference" "R16"
+		(property "Reference" "AB16"
 			(at 212.852 44.704 90)
 			(effects
 				(font
@@ -4241,7 +4222,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R16")
+					(reference "AB16")
 					(unit 1)
 				)
 			)
@@ -4256,7 +4237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "478b2d93-9405-465e-bcf0-c395791b28fb")
-		(property "Reference" "R9"
+		(property "Reference" "AB9"
 			(at 153.162 110.744 90)
 			(effects
 				(font
@@ -4308,7 +4289,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R9")
+					(reference "AB9")
 					(unit 1)
 				)
 			)
@@ -4323,7 +4304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c16551f-8c39-47f8-81a4-43e6f0de7a01")
-		(property "Reference" "R3"
+		(property "Reference" "AB3"
 			(at 153.162 49.784 90)
 			(effects
 				(font
@@ -4375,7 +4356,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R3")
+					(reference "AB3")
 					(unit 1)
 				)
 			)
@@ -4390,7 +4371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55919374-176a-4cb3-bd9a-d1646be52a68")
-		(property "Reference" "R34"
+		(property "Reference" "AB34"
 			(at 153.162 125.984 90)
 			(effects
 				(font
@@ -4442,7 +4423,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R34")
+					(reference "AB34")
 					(unit 1)
 				)
 			)
@@ -4457,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6431332e-e396-4f1c-9d2b-ebe998b27047")
-		(property "Reference" "R33"
+		(property "Reference" "AB33"
 			(at 153.162 115.824 90)
 			(effects
 				(font
@@ -4509,7 +4490,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R33")
+					(reference "AB33")
 					(unit 1)
 				)
 			)
@@ -4524,7 +4505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65cf7560-39fe-4e65-bc4c-bb2193266055")
-		(property "Reference" "R8"
+		(property "Reference" "AB8"
 			(at 153.162 100.584 90)
 			(effects
 				(font
@@ -4576,7 +4557,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R8")
+					(reference "AB8")
 					(unit 1)
 				)
 			)
@@ -4591,7 +4572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bd7f713-df92-4b7d-83fe-fe440a3817c3")
-		(property "Reference" "R47"
+		(property "Reference" "AB47"
 			(at 212.852 100.584 90)
 			(effects
 				(font
@@ -4643,7 +4624,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R47")
+					(reference "AB47")
 					(unit 1)
 				)
 			)
@@ -4658,7 +4639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73bd3a1f-2da7-4f5f-8c98-eeb79c0e7ed6")
-		(property "Reference" "R22"
+		(property "Reference" "AB22"
 			(at 212.852 75.184 90)
 			(effects
 				(font
@@ -4710,7 +4691,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R22")
+					(reference "AB22")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "808276e0-3396-47ad-a7c5-96c3be9a6660")
-		(property "Reference" "R29"
+		(property "Reference" "AB29"
 			(at 153.162 80.264 90)
 			(effects
 				(font
@@ -4777,7 +4758,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R29")
+					(reference "AB29")
 					(unit 1)
 				)
 			)
@@ -4792,7 +4773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8217e7f0-5dc1-42ee-bbef-37d4fc0a5d94")
-		(property "Reference" "R2"
+		(property "Reference" "AB2"
 			(at 153.162 44.704 90)
 			(effects
 				(font
@@ -4844,7 +4825,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R2")
+					(reference "AB2")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86760eb2-059a-4587-817c-28f6ee1c5f1b")
-		(property "Reference" "R14"
+		(property "Reference" "AB14"
 			(at 212.852 59.944 90)
 			(effects
 				(font
@@ -4911,7 +4892,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R14")
+					(reference "AB14")
 					(unit 1)
 				)
 			)
@@ -4926,7 +4907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89cefbd7-f572-427f-ac24-4bfda0c9b496")
-		(property "Reference" "R46"
+		(property "Reference" "AB46"
 			(at 212.852 95.504 90)
 			(effects
 				(font
@@ -4978,7 +4959,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R46")
+					(reference "AB46")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9275cf99-1a63-4b3b-9a30-8b577d97c8e3")
-		(property "Reference" "R5"
+		(property "Reference" "AB5"
 			(at 153.162 54.864 90)
 			(effects
 				(font
@@ -5045,7 +5026,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R5")
+					(reference "AB5")
 					(unit 1)
 				)
 			)
@@ -5060,7 +5041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0317074-4534-4bc4-bc88-045150a2bd1c")
-		(property "Reference" "R35"
+		(property "Reference" "AB35"
 			(at 153.162 120.904 90)
 			(effects
 				(font
@@ -5112,7 +5093,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R35")
+					(reference "AB35")
 					(unit 1)
 				)
 			)
@@ -5127,7 +5108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b55afdcb-b470-4ce7-aa78-0c37a80e7579")
-		(property "Reference" "R15"
+		(property "Reference" "AB15"
 			(at 212.852 54.864 90)
 			(effects
 				(font
@@ -5179,7 +5160,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R15")
+					(reference "AB15")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8bb4ed3-c0ab-4f3a-bba2-415b5f25f3a8")
-		(property "Reference" "R28"
+		(property "Reference" "AB28"
 			(at 153.162 70.104 90)
 			(effects
 				(font
@@ -5246,7 +5227,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R28")
+					(reference "AB28")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4ec01ce-0644-4ca8-8398-2195c72025c4")
-		(property "Reference" "R4"
+		(property "Reference" "AB4"
 			(at 153.162 59.944 90)
 			(effects
 				(font
@@ -5581,7 +5562,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R4")
+					(reference "AB4")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d94a473e-7525-4e28-a5ac-c751453caa91")
-		(property "Reference" "R10"
+		(property "Reference" "AB10"
 			(at 153.162 105.664 90)
 			(effects
 				(font
@@ -5648,7 +5629,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R10")
+					(reference "AB10")
 					(unit 1)
 				)
 			)
@@ -5663,7 +5644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d95ad22e-f281-4704-a829-265e80446fc4")
-		(property "Reference" "R21"
+		(property "Reference" "AB21"
 			(at 212.852 80.264 90)
 			(effects
 				(font
@@ -5715,7 +5696,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R21")
+					(reference "AB21")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa667d4-f146-4c97-803a-cfd550fd8ff8")
-		(property "Reference" "R13"
+		(property "Reference" "AB13"
 			(at 212.852 49.784 90)
 			(effects
 				(font
@@ -5782,7 +5763,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R13")
+					(reference "AB13")
 					(unit 1)
 				)
 			)
@@ -5797,7 +5778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7ac3398-98be-409e-8546-2603ce44c56c")
-		(property "Reference" "R11"
+		(property "Reference" "AB11"
 			(at 153.162 95.504 90)
 			(effects
 				(font
@@ -5849,7 +5830,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R11")
+					(reference "AB11")
 					(unit 1)
 				)
 			)
@@ -5864,7 +5845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea44802e-5d1e-4be3-8689-edce6b748146")
-		(property "Reference" "R19"
+		(property "Reference" "AB19"
 			(at 212.852 85.344 90)
 			(effects
 				(font
@@ -5916,7 +5897,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R19")
+					(reference "AB19")
 					(unit 1)
 				)
 			)
@@ -5931,7 +5912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed61f319-0274-4dba-baa3-a5da485c444c")
-		(property "Reference" "R6"
+		(property "Reference" "AB6"
 			(at 153.162 65.024 90)
 			(effects
 				(font
@@ -5983,7 +5964,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R6")
+					(reference "AB6")
 					(unit 1)
 				)
 			)
@@ -5998,7 +5979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eecf8e6e-ca4d-44ab-a19f-b76743e0c074")
-		(property "Reference" "R36"
+		(property "Reference" "AB36"
 			(at 153.162 131.064 90)
 			(effects
 				(font
@@ -6050,7 +6031,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R36")
+					(reference "AB36")
 					(unit 1)
 				)
 			)
@@ -6065,7 +6046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1e4b99a-7942-4dd5-8569-6936872be17f")
-		(property "Reference" "R27"
+		(property "Reference" "AB27"
 			(at 153.162 90.424 90)
 			(effects
 				(font
@@ -6117,7 +6098,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R27")
+					(reference "AB27")
 					(unit 1)
 				)
 			)
@@ -6132,7 +6113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f393a7be-6e39-440f-8985-cef52b381c66")
-		(property "Reference" "R30"
+		(property "Reference" "AB30"
 			(at 153.162 75.184 90)
 			(effects
 				(font
@@ -6184,7 +6165,7 @@
 		(instances
 			(project "Accumulator_Unit_441C1201"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R30")
+					(reference "AB30")
 					(unit 1)
 				)
 			)
