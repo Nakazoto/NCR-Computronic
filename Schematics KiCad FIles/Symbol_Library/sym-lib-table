@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NCR_Tubes")(type "KiCad")(uri "${KIPRJMOD}/NCR_Tubes.kicad_sym")(options "")(descr ""))
+)
