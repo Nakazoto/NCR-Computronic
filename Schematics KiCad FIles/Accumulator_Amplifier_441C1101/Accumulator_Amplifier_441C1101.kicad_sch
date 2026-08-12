@@ -7,6 +7,7 @@
 	(title_block
 		(title "Compu-Tronic Accumulator Amplifier Schematic")
 		(date "11-4-1958")
+		(comment 2 "For wiring diagram see 441E1102")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x12_Top_Bottom"
@@ -3514,7 +3515,7 @@
 		)
 		(uuid "00b4eea9-23e0-4b0c-89e6-971a0e75e67c")
 	)
-	(text "1. All resistors 1/2 watt unless otherwise stated.\n2. All capacitors rated for 500V."
+	(text "1. All resistors 1/2 watt unless otherwise stated.\n2. All capacitors in MMFD (pF), 500 V.D.C.\n3. Tube unit location: G1,H1,J1,L1,M1,N1,R1,S1,T1,U1,X1,Y1,Z1."
 		(exclude_from_sim no)
 		(at 32.004 178.816 0)
 		(effects
@@ -4313,7 +4314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0159cd4e-a805-448e-89a9-5a74aadd0bda")
-		(property "Reference" "U1101"
+		(property "Reference" "V1101"
 			(at 82.55 67.3099 0)
 			(effects
 				(font
@@ -4388,7 +4389,7 @@
 		(instances
 			(project "Input_Amplifiier"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "U1101")
+					(reference "V1101")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "106731bd-de34-4ba4-a018-15c4a65ed82c")
-		(property "Reference" "R23"
+		(property "Reference" "CD23"
 			(at 248.92 62.2299 0)
 			(effects
 				(font
@@ -4457,7 +4458,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R23")
+					(reference "CD23")
 					(unit 1)
 				)
 			)
@@ -4676,7 +4677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9acc5d-336c-452e-b62b-6674213f43bb")
-		(property "Reference" "R8"
+		(property "Reference" "AB8"
 			(at 55.88 101.6 90)
 			(effects
 				(font
@@ -4728,7 +4729,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R8")
+					(reference "AB8")
 					(unit 1)
 				)
 			)
@@ -4945,7 +4946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f63489-ab69-4219-9897-c37553441360")
-		(property "Reference" "R5"
+		(property "Reference" "CD5"
 			(at 64.77 35.56 90)
 			(effects
 				(font
@@ -4997,7 +4998,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R5")
+					(reference "CD5")
 					(unit 1)
 				)
 			)
@@ -5012,7 +5013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "614db2bf-4a7b-420c-aa72-0f6635ee65d6")
-		(property "Reference" "C3"
+		(property "Reference" "CD3"
 			(at 119.634 67.3099 0)
 			(effects
 				(font
@@ -5066,7 +5067,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "C3")
+					(reference "CD3")
 					(unit 1)
 				)
 			)
@@ -5285,7 +5286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73723546-b4cc-43d5-95ee-e5dc2e6c55ca")
-		(property "Reference" "C20"
+		(property "Reference" "CD20"
 			(at 224.79 62.2299 0)
 			(effects
 				(font
@@ -5339,7 +5340,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "C20")
+					(reference "CD20")
 					(unit 1)
 				)
 			)
@@ -5355,7 +5356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80936ded-2dfe-419c-80df-fddba3fa618c")
-		(property "Reference" "R31"
+		(property "Reference" "CD21"
 			(at 218.44 74.9299 0)
 			(effects
 				(font
@@ -5409,7 +5410,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R31")
+					(reference "CD21")
 					(unit 1)
 				)
 			)
@@ -5425,7 +5426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f813f4-10af-4ccf-934d-e5b90fae0142")
-		(property "Reference" "R7"
+		(property "Reference" "CD7"
 			(at 40.64 91.4399 0)
 			(effects
 				(font
@@ -5479,7 +5480,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R7")
+					(reference "CD7")
 					(unit 1)
 				)
 			)
@@ -5495,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89e8b99c-aa34-415d-9f79-87e7cb6b8824")
-		(property "Reference" "U1101"
+		(property "Reference" "V1101"
 			(at 68.58 137.1599 0)
 			(effects
 				(font
@@ -5570,7 +5571,7 @@
 		(instances
 			(project "Input_Amplifiier"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "U1101")
+					(reference "V1101")
 					(unit 3)
 				)
 			)
@@ -5585,7 +5586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bac31f5-23e9-47b7-a87d-ef33db6658a6")
-		(property "Reference" "R15"
+		(property "Reference" "CD15"
 			(at 205.74 44.4499 0)
 			(effects
 				(font
@@ -5639,7 +5640,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R15")
+					(reference "CD15")
 					(unit 1)
 				)
 			)
@@ -5655,7 +5656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91b791f9-7c02-47f6-9f3a-7dcea4ea34de")
-		(property "Reference" "U1105"
+		(property "Reference" "V1105"
 			(at 196.85 68.5799 0)
 			(effects
 				(font
@@ -5730,7 +5731,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "U1105")
+					(reference "V1105")
 					(unit 1)
 				)
 			)
@@ -5812,7 +5813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab4f29ab-e959-410e-84c4-660935e34bed")
-		(property "Reference" "U1105"
+		(property "Reference" "V1105"
 			(at 92.71 137.1599 0)
 			(effects
 				(font
@@ -5887,7 +5888,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "U1105")
+					(reference "V1105")
 					(unit 3)
 				)
 			)
@@ -5903,7 +5904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2a157a-2258-4ed9-bce3-7bab392c0d9b")
-		(property "Reference" "C22"
+		(property "Reference" "CD22"
 			(at 236.22 62.23 90)
 			(effects
 				(font
@@ -5955,7 +5956,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "C22")
+					(reference "CD22")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb7fbf37-e547-4ce5-bb20-1230d819502d")
-		(property "Reference" "R24"
+		(property "Reference" "CD24"
 			(at 157.48 76.1999 0)
 			(effects
 				(font
@@ -6430,7 +6431,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R24")
+					(reference "CD24")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce9f8e7c-fe55-4d1b-bbdf-cfb157f8be6d")
-		(property "Reference" "R18"
+		(property "Reference" "CD18"
 			(at 170.18 44.4499 0)
 			(effects
 				(font
@@ -6500,7 +6501,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R18")
+					(reference "CD18")
 					(unit 1)
 				)
 			)
@@ -6516,7 +6517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7254fde-b141-4558-b6b2-d222095abeaf")
-		(property "Reference" "R6"
+		(property "Reference" "CD6"
 			(at 82.55 35.56 90)
 			(effects
 				(font
@@ -6568,7 +6569,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R6")
+					(reference "CD6")
 					(unit 1)
 				)
 			)
@@ -6584,7 +6585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7df5871-9797-49cf-8455-a4a4dbc9f835")
-		(property "Reference" "C4"
+		(property "Reference" "CD4"
 			(at 27.94 67.3099 0)
 			(effects
 				(font
@@ -6638,7 +6639,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "C4")
+					(reference "CD4")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dafb0f9f-cc03-46e5-b223-145311960a59")
-		(property "Reference" "U1101"
+		(property "Reference" "V1101"
 			(at 64.77 67.3099 0)
 			(effects
 				(font
@@ -6729,7 +6730,7 @@
 		(instances
 			(project "Input_Amplifiier"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "U1101")
+					(reference "V1101")
 					(unit 2)
 				)
 			)
@@ -6816,7 +6817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e107310a-4e78-4077-acf1-e795f0e71bb0")
-		(property "Reference" "C25"
+		(property "Reference" "CD25"
 			(at 149.86 62.23 90)
 			(effects
 				(font
@@ -6868,7 +6869,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "C25")
+					(reference "CD25")
 					(unit 1)
 				)
 			)
@@ -7016,7 +7017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff5fd88d-104d-4a80-b49f-cea54fcc0e88")
-		(property "Reference" "R1"
+		(property "Reference" "CD1"
 			(at 106.68 91.4399 0)
 			(effects
 				(font
@@ -7070,7 +7071,7 @@
 		(instances
 			(project "Accumulator_Amplifier_441C1101"
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "R1")
+					(reference "CD1")
 					(unit 1)
 				)
 			)
@@ -7086,7 +7087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff7fbbf2-f8bc-4ca0-85bf-e709291df968")
-		(property "Reference" "U1105"
+		(property "Reference" "V1105"
 			(at 179.07 68.5799 0)
 			(effects
 				(font
@@ -7161,7 +7162,7 @@
 		(instances
 			(project ""
 				(path "/519d7692-6bf3-45ab-bd58-713783b63e8a"
-					(reference "U1105")
+					(reference "V1105")
 					(unit 2)
 				)
 			)
